@@ -1,0 +1,407 @@
+.App {
+  text-align: center;
+
+  font-family:  Roboto;
+	font-size: smaller;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #001429;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.DivMargin
+{
+  margin: 10px;
+}
+/* .DivMarginHeader
+{
+  background-color: #001429;
+  height: 100%;
+  border-radius: 15px;
+  
+} */
+.DivMarginFooter
+{
+  
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  color:yellow;
+  
+  height: 100%;
+  border-radius: 15px;
+  
+}
+.DivMarginFooterInner
+{
+  
+  background-color: #001429;
+  height: 100%;
+  border-radius: 15px;
+  
+}
+.DivMarginContent
+{
+  border-radius: 15px;
+  
+}
+.DivMarginContentInner
+{
+  
+  background-color: #001429;
+  height: 100%;
+  border-radius: 15px;
+    
+}
+
+
+.DivContents
+{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: mintcream;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  color: #001429;
+  border-radius: 10px;
+  
+  word-wrap: break-word;
+  
+}
+.DivContentsInner
+{
+  
+  width: 100%; 
+}
+
+.ContentMainLable
+{
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  color:maroon;
+  text-transform: uppercase;
+  width: 100%;
+  
+
+}
+.TableCellMenu
+{
+  vertical-align: top;
+  width: 15%;
+  height: 15%;  
+}
+.TableContents
+{
+  
+  width: 100%;
+  height: 100%;
+  background-color: white;
+
+    
+}
+
+.TableCellContents
+{
+  
+  width: 100%;
+  height: 100%;
+  
+    
+}
+.TableParent
+{
+  width: 100%;   
+  background-color: #edf6fb;
+  border-radius: 0px;
+  
+}
+
+.ButtonRegister
+{
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+
+}
+.ButtonLogin
+{
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  
+}
+.DivMarginSignUp.data-form
+{
+  height: 640px;
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #fff;
+  padding: 10px; 
+  width: 50%;
+    float: right;
+    background: #034e9f;  
+}
+
+.DivMarginSignUp
+{
+  height: 512px;
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #fff;
+  padding: 10px; 
+  width: 50%;
+    float: right;
+    background: #034e9f;  
+}
+.DivMarginSignUpInner
+{
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #001429;
+  background-color: white;
+  border: #001429 1px solid;
+  padding: 10px; 
+  
+  height: 100%;
+}
+.HeaderRow
+{
+  text-align: left;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: whitesmoke;
+  
+  background-color: #001429;
+  border-bottom: 3px #001429 solid;
+  
+  
+}
+.DetailsRow
+{
+  text-align: left;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #001429;
+  
+  background-color: white;
+  margin-bottom: 10x;
+}
+.DetailsRowli
+{
+  text-align: left;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #001429;
+  
+  background-color: white;
+  
+  
+}
+.Margin20px
+{
+    margin: 20x;
+    
+    padding: 20px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.DivGroup
+{
+  border: #001429 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.DivMarginCreateAccount
+{
+  text-align: left;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  color: #001429;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 0px;
+  transform: translate(0%, 0%);
+}
+.DivMarginLoginAccount
+{
+  text-align: left;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  color: #001429;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 0px;
+  transform: translate(0%, 20%);
+}
+.HeaderSection
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+.TextField
+{
+  
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  color: #001429;
+  border-bottom: 3px #001429 solid;
+}
+.DetailsSection
+{
+  text-align: center;
+	margin: 20px 0px;    
+}
+.Logo
+{
+  
+  width: 50px;
+}
+.DivMainTitle
+{
+  text-align: center;
+	font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color:green;
+  border-bottom: 3px red solid; 
+  font-variant-caps: all-petite-caps;
+  vertical-align: middle;
+  width: 100%;
+}
+.ContactUsSection
+{
+  text-align: center;
+  margin: 20px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: whitesmoke;
+  padding: 10px; 
+  display: grid;
+  color: darkgreen;
+  font-size: 10px;
+  font-weight: bolder;
+  
+}
+.DropDown
+{
+  width: 200px;
+}
+.DivErrorMessage
+{
+  text-align: center;
+	font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-weight: bolder;
+  color:red;
+  margin-bottom: 20px;
+  
+}
+.GridSection
+{
+  text-align: center;
+	margin: 20px;
+  background-color: whitesmoke;
+  
+  display: grid;
+  
+}
+.tdHalf
+{
+  text-align: center;
+	margin: 0px 65px 30px 65px;
+  background-color: #fff;  
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+}
+.appbar-menu {
+  margin: 0px 23px;
+  height: 60px;
+}
+.MuiInputLabel-outlined{
+  color: #fff !important;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgb(255 255 255) !important;
+}
+.data-form{
+  width: 100% !important;
+}
+.data-insert{
+  width: 35% !important;
+}
+.MuiSelect-icon {
+  color: rgb(253 253 253 / 54%) !important;
+}
+
+#idEnvTemp-label {
+  text-align: left;/* 
+  transform: translate(14px, 13px) scale(1) !important; */
+}
+.MuiGrid-root.MuiGrid-container.MuiGrid-grid-xs-12 {
+  margin-bottom: inherit;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+  color: #fff;
+}
+
+.sub-menu-1 ul li a {
+  padding: 0px;
+}
+.sub-menu-1 ul li {
+  margin: 0px 6px 0px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #fff;
+}
+.menu-bar_Profile ul li:hover .sub-menu-1 ul li:last-child {
+  background-color: #034e9f !important;
+}

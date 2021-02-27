@@ -35,7 +35,7 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import NativeSelect from '@material-ui/core/NativeSelect';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import AddShoppingCart from '@material-ui/icons/AddShoppingCart';
 import SearchBar from '../searchbar/SearchBar';
 import BannerSection from '../banner-section/BannerSection'
 
@@ -292,13 +292,14 @@ class SubmitData extends Component {
         
         <Grid item xs={12}>
           <Paper >
-            <td class="tdHalf">
+            <td class="td-grid-content">
                                                     <h3 style={{paddingBottom:"15px", color: "#034e9f", fontsize: "x-large",}}>Existing Data</h3>
                                                     <Table aria-label=" table" size="small" >
                                 <TableHead>
                                 <TableRow>
-                                    <TableCell  align="left">Items</TableCell>
-                                    
+                                    <TableCell  align="center" class="no-padding-spacing"></TableCell>
+                                    <TableCell  align="center" class="no-padding-spacing"></TableCell>
+
                                 </TableRow>
                                 </TableHead>
                                 <TableBody>
@@ -328,8 +329,7 @@ class SubmitData extends Component {
                                             style={{
                                             padding: "0px 10px 0px 0px !important",
                                             width: "100px !important",
-                                            }} ><ExitToAppIcon></ExitToAppIcon>Add to Cart</Button>
-
+                                            }} ><AddShoppingCart></AddShoppingCart>Add to Cart</Button>
                                     </TableCell>
                                 </TableRow>
                                 
@@ -356,7 +356,7 @@ class SubmitData extends Component {
                                             style={{
                                             padding: "0px 10px 0px 0px !important",
                                             width: "100px !important",
-                                            }} ><ExitToAppIcon></ExitToAppIcon>Add to Cart</Button>
+                                            }} ><AddShoppingCart></AddShoppingCart>Add to Cart</Button>
 
                                     </TableCell>
                                 </TableRow>

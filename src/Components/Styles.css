@@ -50,6 +50,7 @@ a.signout-btn {
 .menu-bar ul li:hover .sub-menu-1 ul
 {
 	display: block;
+	width: 120px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
@@ -745,18 +746,20 @@ button#addtocart-btn {
     height: 115px;
     background-color: #fff;
     border-radius: 70px;
-	border: 3px solid #034e9f;;
+	border: 3px solid #034e9f;
+	vertical-align:middle;
+	align-items: center;
 }
 .no-padding-spacing
 {
 	
 	border:0px solid red;
 	width: 200px;
-	vertical-align: top;
+	vertical-align: middle;
 
 }
 .item-table{
-	background-color: blueviolet;
+	background-color:white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 3px solid magenta;
@@ -793,4 +796,12 @@ button#addtocart-btn {
 .item-content
 {
 	padding-left: 25px;
+}
+.bt-addd-to-cart
+{
+	background-color: #000;
+}
+.bt-addd-to-cart:hover
+{
+	background-color: red;
 }

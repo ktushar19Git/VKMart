@@ -405,3 +405,12 @@
 .menu-bar_Profile ul li:hover .sub-menu-1 ul li:last-child {
   background-color: #034e9f !important;
 }
+.td-grid-content
+{
+  text-align: center;
+	margin: 0px 65px 30px 65px;
+  background-color: #fff;  
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+}
